@@ -1,0 +1,5 @@
+In this Code , I have first made a function of generating a pascal triangle. First I have created an outer loop which runs till n (n here is the no. of rows). The loop runs for each row in 
+the trinagle. Then I initialised a value of num = 1 . It will store the current value which needs to be printed in the triangle. Then come the inner loop j which is used to print spaces , here 
+when the no. of row increase the no. of spaces decreases. Since it is a pascal triangle it will always start with 1. When num is not equal to 1 num× (i−j+1)/(j-1) (this is the most difficult part
+in this question where the main logic stands , I have to think a lot for the same). Then simply in  the main function , call the function to generate output
+​
